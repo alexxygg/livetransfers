@@ -5,7 +5,7 @@ const App = () => {
   const [closers, setClosers] = useState([
     { name: 'Dylan', status: true },
     { name: 'Harrison', status: false },
-    { name: 'Isaak', status: false },
+    { name: 'Isaak', status: true },
     { name: 'Koren', status: false },
   ]);
 

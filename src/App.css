@@ -1,5 +1,6 @@
+
 body{
-  background-color: rgb(26, 25, 25);
+  background-color: rgb(53, 51, 51);
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .closers-container {
@@ -16,7 +17,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
   /* border-radius: 50%; */
   font-weight: bold;
-  font-size: 15px;
+  font-size: 1.5rem;
   color: white;
   width: 25vw; /* Adjusted width to take 25% of the screen */
   height: 80vh; /* Adjusted height to take 50% of the viewport height */
@@ -25,9 +26,16 @@ border: 4px solid black;
 outline: 3px solid white;}
 
 .green {
-  background-image: url(../public/checkmark-png-25954.png);
-  background-color: rgb(22, 184, 22);
+  background-image: url(checkmark-png-25954.png);
+  background-color: rgb(16, 102, 16);
+background-position: center;
+background-size: contain;
+background-repeat: repeat-y;
 }
 .red {
-  background-color: red;
+  background-image: url(x-png-35393.png);
+  background-color: rgb(141, 28, 28);
+background-position: center;
+background-size: contain;
+background-repeat: repeat-y;
 }
