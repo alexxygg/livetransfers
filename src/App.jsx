@@ -20,7 +20,7 @@ const App = () => {
     }
   };
 
-  return (<><div className='title'>Live Transfers</div>
+  return (<><div className='title'>LIVE TRANSFERS</div>
     <div className="closers-container">
       {closers.map((closer, index) => (
         <div
