@@ -20,7 +20,7 @@ const App = () => {
     }
   };
 
-  return (
+  return (<><div className='title'>Live Transfers</div>
     <div className="closers-container">
       {closers.map((closer, index) => (
         <div
@@ -32,7 +32,7 @@ const App = () => {
         </div>
       ))}
     </div>
-  );
+    </>  );
 };
 
 export default App;
