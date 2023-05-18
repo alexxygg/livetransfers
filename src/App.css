@@ -1,8 +1,11 @@
 
 body {
-  background-color: rgb(51, 51, 54);
+  background-color: rgb(48, 48, 218);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   overflow-x: hidden; /* Prevent horizontal overflow */
+  background-image: url(vecteezy_square-pattern_1209803.png);
+background-position: center;
+background-size: contain;
 }
 
 .closers-container {
@@ -16,7 +19,7 @@ body {
 .closers-container {
   display: flex;
   justify-content: space-between;
-  gap: 15px;
+  gap: 25px;
   width: 90vw;
   margin: 0 5vw;
 }
