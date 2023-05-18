@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
-import closersData from './closers.json'; // Import the closers data
+import React, { useState } from 'react';
+import './App.css'; // Import the CSS file with the updated styling
 
 const App = () => {
-  const [closers, setClosers] = useState([]);
-
-  useEffect(() => {
-    setClosers(closersData.closers);
-  }, []);
+  const [closers, setClosers] = useState([
+    { name: 'Koren', status: false },
+    { name: 'Dylan', status: false },
+    { name: 'Isaak', status: false },
+    { name: 'Harrison', status: false },
+  ]);
 
   const handleStatusToggle = (index) => {
     const password = prompt('Enter the password:');
@@ -15,8 +15,6 @@ const App = () => {
       const updatedClosers = [...closers];
       updatedClosers[index].status = !updatedClosers[index].status;
       setClosers(updatedClosers);
-      // Save the updated closers back to the configuration file
-      closersData.closers = updatedClosers;
     } else {
       alert('Incorrect password. Status not changed.');
     }
