@@ -3,10 +3,10 @@ import './App.css'; // Import the CSS file with the updated styling
 
 const App = () => {
   const [closers, setClosers] = useState([
-    { name: 'Koren', status: false },
-    { name: 'Dylan', status: false },
-    { name: 'Isaak', status: false },
+    { name: 'Dylan', status: true },
     { name: 'Harrison', status: false },
+    { name: 'Isaak', status: false },
+    { name: 'Koren', status: false },
   ]);
 
   const handleStatusToggle = (index) => {
