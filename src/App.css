@@ -8,6 +8,7 @@ body {
   background-image: linear-gradient(to bottom, rgb(48, 48, 218), rgb(255, 255, 255));
 background-position: center;
 background-size: contain;
+justify-content: center;
 }
 
 .closers-container {
@@ -25,6 +26,7 @@ background-size: contain;
   width: 90vw;
   margin: 0 5vw;
   margin-bottom: 15px;
+  height: 60vh; /* Adjusted height to take 50% of the viewport height */
 }
 
 .closer {
@@ -36,7 +38,6 @@ background-size: contain;
   font-size: 1.5rem;
   color: white;
   width: 25vw; /* Adjusted width to take 25% of the screen */
-  height: 55vh; /* Adjusted height to take 50% of the viewport height */
 /* border-radius: 10px; */
 border: 5px solid black;
 outline: 3px solid  rgb(48, 48, 218);
@@ -75,7 +76,7 @@ background-repeat: repeat-y;
 border: solid black 6px;
 border-radius: 2rem;
 color: white;
-height: 40px;
+max-height: 15vh;
 font-family:monospace;
 width: 50%;
 margin-left: auto;
