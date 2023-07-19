@@ -2,12 +2,11 @@
    background-image: url(pattern.png);
 } */
 body {
-  background-color: rgb(48, 48, 218);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-image: linear-gradient(
     to bottom,
-    rgb(48, 48, 218),
+    rgb(48, 102, 218),
     rgb(255, 255, 255)
   );
   background-position: center;
@@ -16,14 +15,19 @@ body {
   text-shadow: -6px 0 6px black, -3px 0 3px black;
 }
 .title {
-  background-color: transparent;
   margin: 10px;
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 900;
+  font-weight: bolder;
   outline: solid 2px ghostwhite;
   border: solid black 6px;
   border-radius: 2rem;
+  /* background: linear-gradient(to right, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  color: transparent; */
   color: white;
   max-height: 15vh;
   min-width: max-content;
@@ -31,6 +35,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .closers-container {
   display: flex;
   /* gap: 25px; */
